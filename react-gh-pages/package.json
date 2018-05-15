@@ -2,7 +2,7 @@
   "name": "react-gh-pages",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Ursula1207.github.io/Ursula1207.github.io/",
+  "homepage": "http://Ursula1207.github.io/",
   "dependencies": {
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
@@ -14,7 +14,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build --branch master"
   },
   "devDependencies": {
     "gh-pages": "^1.1.0"
